@@ -1,0 +1,116 @@
+body{
+    background-color: #608cb0;
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #334757;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.passresetcontainer{
+    margin: auto;
+    margin-top: 140px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.passresetform{
+    width: 100%;
+    max-width: 400px;
+    padding: 0 32px 32px 32px;
+    box-sizing: border-box;
+}
+
+.icons{
+    display: inline-block;
+    height: 25px;
+    width: 340px;
+    border: none;
+    background-color: #d7dbde;
+    border-radius: 5px;
+}
+
+.passreseticons{
+    font-size: 16px;
+    color: #2ee7f0;
+    padding: 5px;
+    background-color: #334757;
+}
+
+.passresetfield{
+    border: none;
+    font-size: 16px;
+    background-color: #d7dbde;
+    padding-left: 5px;
+    width: 300px;
+}
+
+.passresetfield:focus{
+    background-color: #2ee7f0;
+    border: none;
+}
+
+.passresetfield::before{
+    content: "Hi";
+}
+
+.submit{
+    text-align: center;
+}
+
+.passresetsubmit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color:#334757;
+    color: #2ee7f0;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.passresetsubmit:hover{
+    color: #fff;
+}
+
+/* CSS for Task Manager base.html begins here */
+
+.navMain{
+    background-color: #334757;
+    height: 50px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlink{
+    display: inline;
+    float: left;
+    color: #2ee7f0;
+    padding: 16px 24px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: #2ee7f0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.active{
+    background-color: black;
+    color: #2ee7f0;
+}
+
+.navprofile{
+    float: right;
+    color: #2ee7f0;
+    padding: 16px 24px;
+}
